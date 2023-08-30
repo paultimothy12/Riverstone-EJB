@@ -1,17 +1,12 @@
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.annotation.Resource;
-import javax.inject.Inject;
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
-import javax.jms.JMSConnectionFactory;
-import javax.jms.JMSContext;
 import javax.jms.MessageProducer;
 import javax.jms.Queue;
 import javax.jms.Session;
 import javax.jms.TextMessage;
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
